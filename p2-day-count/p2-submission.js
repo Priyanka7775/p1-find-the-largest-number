@@ -8,7 +8,7 @@ switch(month){
         days = 31;
         break;
     case 2:
-        if(year % 4 === 0){
+        if(year % 4 == 0){
             days = 29;
         }
         else{
